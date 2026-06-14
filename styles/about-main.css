@@ -9,7 +9,7 @@ p{
    #0f172a,
    #1e293b
  );
-   margin-top:100px;
+   margin-top:20px;
    margin-left: 10px;
    margin-right: 10px;
    border-radius: 20px;
@@ -155,7 +155,6 @@ p{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
     gap:30px;
-    margin-bottom: 100px;
 }
 
 .about-card{
