@@ -16,6 +16,7 @@ p{
 .about-container{
     max-width:1200px;
     margin:auto;
+    padding-left:10px;
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:80px;
