@@ -10,13 +10,14 @@ p{
    #1e293b
  );
    margin-top:100px;
+   margin-left: 10px;
+   margin-right: 10px;
    border-radius: 20px;
  }
 
 .about-container{
     max-width:1200px;
     margin:auto;
-    padding-left:10px;
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:80px;
