@@ -12,7 +12,7 @@ html{
  body {
    background:#f7fafc;
    color:#1e293b;
-   padding-top: 60px; /* adjust to your navbar height */
+   padding-top: 30px; /* adjust to your navbar height */
  }
 
 @media(max-width:900px){
