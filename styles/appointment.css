@@ -155,3 +155,22 @@
   }
 
 }
+
+@media(max-width:480px){
+
+  .appointment-card{
+    padding:18px;
+  }
+
+  .appointment-card h1{
+    font-size:1.5rem;
+  }
+
+  .appointment-icon{
+    font-size:40px;
+  }
+
+  .subtitle{
+    font-size:.9rem;
+  }
+}

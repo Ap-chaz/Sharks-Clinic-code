@@ -40,7 +40,8 @@
    padding:40px;
    border-radius:25px;
    color:#fff;
-   width: 500px;
+   width: 100%;
+   max-width: 500px;
  }
  
  .glass h1 {

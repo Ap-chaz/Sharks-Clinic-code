@@ -158,3 +158,27 @@ WHY CHOOSE US
     grid-template-columns:repeat(2,1fr);
 }
 }
+
+@media(max-width:400px){
+
+.stats-row{
+    grid-template-columns:1fr;
+}
+
+.stat-card h3{
+    font-size:1.6rem;
+}
+}
+
+@media(max-width:480px){
+
+.why-choose-us{
+    padding:60px 5%;
+    margin-left:8px;
+    margin-right:8px;
+}
+
+.why-choose-us .section-header h2{
+    font-size:1.7rem;
+}
+}

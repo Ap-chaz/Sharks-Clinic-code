@@ -302,8 +302,34 @@ p{
    border-radius: 20px;
 }
 
-.section-tag{
+@media(max-width:1024px){
+    .working-hours{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+@media(max-width:768px){
+    .working-hours{
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 60px 5%;
+    }
+
+    .hours-card{
+        padding: 25px;
+    }
+}
+
+.working-hours .section-tag{
     font-size: 2.5rem;
+    display: block;
+}
+
+@media(max-width:480px){
+    .working-hours .section-tag{
+        font-size: 1.8rem;
+    }
 }
 
 .hours-card{

@@ -15,7 +15,7 @@ html{
    padding-top: 90px; /* adjust to your navbar height */
  }
 
-  @media(max-width:900px){
+@media(max-width:900px){
 
   .nav-links{
     position:absolute;
@@ -29,13 +29,11 @@ html{
   }
 
   .hero-content{
-    top:20%;
+    top:50%;
     left:5%;
-    right:20%;
+    right:5%;
     max-width:none;
     transform:translateY(-50%);
-  }
-
   }
 
   .glass{
@@ -60,6 +58,33 @@ html{
     display:none;
   }
 
+}
 
+@media(max-width:480px){
 
- 
+  .glass{
+    padding:18px;
+  }
+
+  .glass h1{
+    font-size:1.5rem;
+  }
+
+  .glass p{
+    font-size:.9rem;
+    line-height:1.5;
+  }
+
+  .btns a{
+    padding:12px 18px;
+    font-size:.9rem;
+  }
+
+  .navbar{
+    padding:14px 4%;
+  }
+
+  .logo{
+    font-size:22px;
+  }
+}

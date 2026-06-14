@@ -15,7 +15,7 @@ body{
   display:flex;
   justify-content:center;
   align-items:flex-start;
-  linear-gradient(
+  background: linear-gradient(
   135deg,
   #f8fafc,
   #e2e8f0);
@@ -122,10 +122,6 @@ textarea:focus{
   transition:.3s;
 }
 
-.radio No{
-  color: red;
-}
-
 .submit-btn:hover{
   transform:translateY(-3px);
 
@@ -143,4 +139,24 @@ textarea:focus{
     font-size:2rem;
   }
 
+}
+
+@media(max-width:480px){
+
+  .feedback-card{
+    padding:20px;
+  }
+
+  .feedback-card h1{
+    font-size:1.6rem;
+  }
+
+  .feedback-icon{
+    font-size:42px;
+  }
+
+  .radio-group{
+    flex-direction:column;
+    gap:10px;
+  }
 }
