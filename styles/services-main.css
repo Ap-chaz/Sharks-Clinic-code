@@ -1,7 +1,7 @@
 /* SECTION */
 
 .services-section{
-    padding:30px 6%;
+    padding:10px 6% 30px;
     background:#f8fafc;
     margin-bottom: 130px;
 }
@@ -219,8 +219,7 @@
 @media(max-width:768px){
 
     .services-section{
-        padding:30px 5% 70px 5%;
-        margin-bottom: 40px;
+        padding:70px 5%;
     }
 
     .services-grid{

@@ -10,6 +10,9 @@
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+
   <link rel="stylesheet" href="styles/appointment.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/general.css">
@@ -18,7 +21,6 @@
 
 <body>
       <div id="header"></div>
-      <main>
 
  <section class="appointment-section">
 
@@ -33,13 +35,12 @@
       We'll contact you to confirm your appointment.
     </p>
 
-    <form class="appointment-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+    <form class="appointment-form">
 
       <div class="form-group">
         <label>Full Name</label>
         <input
           type="text"
-          name="full_name"
           placeholder="Enter your full name"
           required>
       </div>
@@ -48,7 +49,6 @@
         <label>Phone Number</label>
         <input
           type="tel"
-          name="phone"
           placeholder="+254..."
           required>
       </div>
@@ -57,14 +57,13 @@
         <label>Email Address</label>
         <input
           type="email"
-          name="email"
           placeholder="example@email.com">
       </div>
 
       <div class="form-group">
         <label>Department</label>
 
-        <select required name="department">
+        <select required>
           <option value="">Select Department</option>
           <option>General Consultation</option>
           <option>Cardiology</option>
@@ -80,13 +79,13 @@
 
         <div class="form-group">
           <label>Preferred Date</label>
-          <input type="date" name="preferred_date" required>
+          <input type="date" required>
         </div>
 
         <div class="form-group">
           <label>Preferred Time</label>
 
-          <select required name="preferred_time">
+          <select required>
             <option value="">Select Time</option>
             <option>08:00 AM</option>
             <option>09:00 AM</option>
@@ -108,7 +107,6 @@
 
         <textarea
           rows="5"
-          name="reason"
           placeholder="Briefly describe your symptoms or reason for booking..."
           required></textarea>
       </div>
@@ -123,8 +121,6 @@
 
 </section>
   
-      </main>
-
     <div id="footer"></div>
 
   <script src="components/components.js"></script>

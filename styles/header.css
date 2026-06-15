@@ -2,6 +2,20 @@ html {
   scroll-behavior: smooth;
 }
 
+.top-bar {
+   background:#0f172a;
+   color:#fff;
+   padding:12px 6%;
+   display:flex;
+   justify-content:space-between;
+   flex-wrap:wrap;
+ }
+ 
+ .top-bar a{
+   text-decoration: none;
+   color: inherit;
+}
+ 
   .navbar {
    display: flex;
    justify-content: space-between;
