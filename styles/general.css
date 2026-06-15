@@ -17,6 +17,10 @@ html{
 
 @media(max-width:900px){
 
+  body{
+    padding-top: 70px;
+  }
+
   .nav-links{
     position:absolute;
     top:100%;

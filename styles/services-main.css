@@ -219,7 +219,7 @@
 @media(max-width:768px){
 
     .services-section{
-        padding:70px 5%;
+        padding:30px 5% 70px 5%;
     }
 
     .services-grid{

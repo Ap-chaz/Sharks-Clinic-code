@@ -2,15 +2,8 @@
    height:90vh;
    position:relative;
    overflow:hidden;
-   margin-top: -90px;
  }
-
- @media(max-width:900px){
-   .hero {
-     margin-top: -70px;
-   }
- }
-
+ 
  .slide {
    position:absolute;
    inset:0;
@@ -19,17 +12,17 @@
    opacity:0;
    transition:opacity 2s ease,transform 8s ease;transform:scale(1);
  }
-
+ 
  .slide.active {
    opacity:1;transform:scale(1.08);
  }
-
+ 
  .overlay {
    position:absolute;
    inset:0;
    background:rgba(0,0,0,.45);
  }
-
+ 
  .hero-content {
    position:absolute;
    top:40%;
@@ -38,7 +31,7 @@
    z-index:2;
    max-width:650px;
  }
-
+ 
  .glass {
    background: rgba(255,255,255,0.18);
    backdrop-filter: blur(25px);
@@ -50,21 +43,21 @@
    width: 100%;
    max-width: 500px;
  }
-
+ 
  .glass h1 {
    font-size:3.5rem;
    margin-bottom:15px;
  }
-
+ 
  .glass span {
    color:#1E40AF;
  }
-
+ 
  .glass p {
    line-height:1.7;
    margin-bottom:20px
  }
-
+ 
  .btns a {
    display:inline-block;
    margin:5px;
@@ -72,7 +65,7 @@
    border-radius:30px;
    text-decoration:none;
  }
-
+ 
  .primary {
    background:linear-gradient(
    to right,
@@ -82,8 +75,10 @@
   transition:.3s;
    color:#fff;
  }
-
+ 
  .secondary {
    background:#fff;
    color:#111;
  }
+ 
+
