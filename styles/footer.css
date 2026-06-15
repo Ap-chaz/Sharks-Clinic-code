@@ -20,8 +20,8 @@ p{
  
  .feedback-btn{
   position:fixed;
-  bottom:20px; /* above WhatsApp */
-  left:20px;
+  bottom:20px;
+  left:20px; /* opposite corner from WhatsApp button */
   width:60px;
   height:60px;
   border-radius:50%;

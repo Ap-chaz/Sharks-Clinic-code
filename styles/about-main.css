@@ -130,7 +130,7 @@ p{
     }
 
     .about-image img{
-        height:450px;
+        height:350px;
     }
 
     .experience-card{
@@ -149,6 +149,20 @@ p{
 .about-section-main{
     padding:100px 8%;
     background:#f8fafc;
+}
+
+.about-page-title{
+    text-align:center;
+    font-size:2.8rem;
+    color:#0f172a;
+    margin-bottom:50px;
+}
+
+@media(max-width:900px){
+    .about-page-title{
+        font-size:2rem;
+        margin-bottom:30px;
+    }
 }
 
 @media(max-width:900px){
@@ -191,21 +205,6 @@ p{
 .about-card p{
     color:#64748b;
     line-height:1.8;
-}
-
-@media(max-width:900px){
-
-    .about-container{
-        grid-template-columns:1fr;
-    }
-
-    .about-content h2{
-        font-size:2.2rem;
-    }
-
-    .about-image img{
-        height:350px;
-    }
 }
 
 .doctors-section{

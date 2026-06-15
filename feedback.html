@@ -16,6 +16,7 @@
 </head>
 <body>
     <div id="header"></div>
+    <main>
 
 <section class="feedback-section">
 
@@ -29,12 +30,13 @@
       We value your opinion. Help us improve our services by sharing your experience.
     </p>
 
-    <form class="feedback-form">
+    <form class="feedback-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
 
       <div class="form-group">
         <label>Full Name</label>
         <input
           type="text"
+          name="full_name"
           placeholder="Enter your name">
       </div>
 
@@ -42,13 +44,14 @@
         <label>Email Address</label>
         <input
           type="email"
+          name="email"
           placeholder="example@email.com">
       </div>
 
       <div class="form-group">
         <label>How would you rate our service?</label>
 
-        <select required>
+        <select required name="rating">
           <option value="">Select Rating</option>
           <option>⭐⭐⭐⭐⭐ Excellent</option>
           <option>⭐⭐⭐⭐ Very Good</option>
@@ -63,12 +66,12 @@
 
         <div class="radio-group">
           <label>
-            <input type="radio" name="recommend">
+            <input type="radio" name="recommend" value="Yes">
             Yes
           </label>
 
           <label>
-            <input type="radio" name="recommend">
+            <input type="radio" name="recommend" value="No">
             No
           </label>
         </div>
@@ -79,6 +82,7 @@
 
         <textarea
           rows="6"
+          name="feedback"
           placeholder="Tell us about your experience..."
           required></textarea>
       </div>
@@ -92,6 +96,8 @@
   </div>
 
 </section>
+
+    </main>
 
     <div id="footer"></div>
 
